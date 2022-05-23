@@ -1,0 +1,38 @@
+.icon{
+    margin-left: 50px;
+   
+}
+.btn{
+  
+    margin: 1px;
+    font-size: 10px;
+   
+}
+.btn1{
+    font-size: 10px;
+  margin-left: 450px;
+}
+.btn2{
+    font-size: 10px;
+}
+.info{
+    font-size: 10px;
+}
+.navbar{
+ color: transparent;
+}
+
+/* .dropdown{
+    margin-right: 300px;
+} */
+.drop:hover{
+    color: yellow;
+}
+.top{
+background-color: rgb(241, 241, 241);
+border-bottom: 1px solid white;
+}
+.navbar1{
+    background-color:rgb(165, 161, 161);
+
+} 

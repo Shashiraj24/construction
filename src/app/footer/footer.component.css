@@ -1,0 +1,72 @@
+.container-fluid{
+    background-color:  rgb(32, 32, 32);
+}
+.word{
+    color: #fff;
+    margin-top: 3em;
+    font-size:larger;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+   
+}
+.hor{
+    color: yellow;
+    width: 60px;
+    height: 3px;
+    
+}
+.word1{
+    font-size: 0.8em ;
+    padding: 1em 1em 1em 4.5em;
+}
+
+.font{
+    font-size: 0.65em;
+    color: #979797;
+}
+
+.font a:hover{
+    color: yellow;
+}
+
+.font a{
+    text-decoration: none;
+    color: #979797;
+    font-size: 1.2em ;
+
+
+}
+.row{
+    color: #979797;
+}
+
+.cont{
+    font-size: 0.8em ;
+
+}
+.cont1{
+    font-size: 0.8em ;
+    margin-bottom: 15px;
+}
+.btn {
+    /* display: inline-block; */
+    display: inline-table;
+    width: 25px;
+    height: 25px;
+    border:1px solid white;
+    /* background: #fff; */
+    margin: 5px;
+    font-size: 10px;
+     
+    /* background-color:  rgb(32, 32, 32); */
+    color: #fff;
+ 
+}
+.icon :hover{
+    color:yellow;
+}
+
+
+
+ 

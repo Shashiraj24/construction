@@ -1,0 +1,77 @@
+
+  <div class="contanier-fluid">
+    <section class="top">
+    <div class="icon">
+      <i class="fa-brands fa-twitter btn px-1"></i>
+      <i class="fa-brands fa-facebook-f btn px-1"></i>
+      <i class="fa-brands fa-google-plus-g btn px-1"></i>
+      <i class="fa-brands fa-pinterest btn px-1"></i>
+      <i class="fa-brands fa-dribbble btn px-1"></i>
+
+      <i class="fa-solid fa-phone btn1  px-1"><span class="info">{{data}}</span></i>
+      <i class="fa-solid fa-envelope btn2 px-2"></i><span class="info">{{data1}}</span>
+      <i class="fa-solid fa-clock btn2  px-3"></i><span class="info">{{data2}}</span>
+    </div>
+</section>
+
+<section class="navbar1">
+  <nav class="navbar navbar-expand-lg navbar-dark  ">
+    <div class="container collapse navbar-collapse ">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- <div class="navbar-nav">
+          <a class="btn btn-link navbar-brand" routerLinkActive="active" routerLink="home">home</a>
+          <a class="btn btn-link navbar-brand" routerLinkActive="active" routerLink="service">service</a>
+          <a class="btn btn-link navbar-brand" routerLinkActive="active" routerLink="portofilo">portofilo</a>
+          <a class="btn btn-link navbar-brand" routerLinkActive="active" routerLink="cities">cities</a>
+
+
+        </div> -->
+      </div>
+    </div>
+    <!-- Dropdown Lazy Loading -->
+    <!-- <div class="container"> -->
+    <div class="dropdown">
+      <button class="btn btn-link navbar-brand dropdown-toggle drop me-3"  type="button" routerLinkActive="active"
+        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        HOME
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" routerLink="home/about">About</a></li>
+        <li><a class="dropdown-item" routerLink="home/future-works">Future-works</a></li>
+        <li><a class="dropdown-item" routerLink="home/offers">Offers</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-link navbar-brand dropdown-toggle drop me-3" type="button" routerLinkActive="active"
+        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        CITIES
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item " routerLink="city/mumbai">Mumbai</a></li>
+        <li><a class="dropdown-item" routerLink="city/pune">Pune</a></li>
+
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-link navbar-brand dropdown-toggle drop me-3"  type="button" routerLinkActive="active"
+        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        PORTFOLIO
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" routerLink="portfolio/commercial">Commercial</a></li>
+        <li><a class="dropdown-item" routerLink="portfolio/education">Education</a></li>
+        <li><a class="dropdown-item" routerLink="portfolio/industrial">Industrial</a></li>
+        <li><a class="dropdown-item" routerLink="portfolio/residential">Residential</a></li>
+      </ul>
+    </div>
+    <!-- </div> -->
+  </nav>
+</section>
+</div>
+<router-outlet></router-outlet>
